@@ -16,7 +16,6 @@ namespace PCComponents.Models
         public double Price { get; set; }
 
         [Required]
-        [StringLength(1, ErrorMessage = "This field can not be empty")]
         [Display(Name = "Quantity")]
         public int Qty { get; set; }
 
